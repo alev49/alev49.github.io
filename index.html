@@ -3,28 +3,124 @@
 <meta charset="UTF-8">
 <title>Alex Vidal's Website</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"/>
 <style>
+  .header {
+    color: rgb(237, 237, 237);
+    text-align: center;
+    padding: 20px;
+  }
+  .circular-image {
+    width: 150px; /* Set the width and height to the desired size */
+    height: 200px;
+    border-radius: 50%; /* Creates a circular shape */
+    overflow: hidden; /* Clip the image to the circular shape */
+
+  }
+  body{
+    background-color: rgb(29, 29, 30);
+  } 
+  h1{
+    color: rgb(237, 237, 237);
+    text-align: center;
+    margin: 20px;
+  }
+  h2{
+    color: rgb(237, 237, 237);
+    text-align: center;
+    margin: 15px;
+    font-size: 40px;
+  }
+  h3{
+    color: rgb(237, 237, 237);
+    text-align: center;
+    margin: 15px;
+    font-size: 30px;
+  }
+  p{
+    color: rgb(237, 237, 237);
+    font-size: larger;
+    text-align: center;
+    padding: 20px;
+    margin-left: 200px;   
+    margin-right: 200px;
+    line-height: 1.3;
+  }
+  a{
+    color: rgb(0, 149, 149);
+  }
 </style>
 <script src=""></script>
 
-<div class="w3-card" style="width:200px">
-  <img src="me.jpeg" style="width:100%">
-  <div class="w3-container w3-center">
-    <p class="s3-xlarge">Alex Vidal</p>
-    <p>alex.jose.vidal@gmail.com</p>
-     <p>(803)606-7949</p>
-  </div>
-</div>
-<img src="me.jpeg" alt="Picture of me" style="width:10%">
+<!-- Not sure if I want a pic of me so for now no -->
+<!-- <div class="circular-image">
+  <img src="me.jpeg" style="width:100%;">   
+</div> -->
 
 <div class="header">
-     <h1>Alex J Vidal</h1>
+     <h1 style="font-size: 70px;">Alex Vidal's Website</h1>
+     <a href="mailto:alex.jose.vidal@gmail.com">Email</a>
+     <a href="http://in/alex-vidal-b60b401b6">LinkedIn</a>
+     <a href="https://github.com/alev49">Github</a>
 </div>
+
+<h2>About Me</h2>
 <body>
- <p>(803)606-7949  alex.jose.vidal@gmail.com</p>
- <p>Resume </p>
- <p></p>
+
+  <p>
+    I am currently a senior at Vriginia Tech studying Data Science in the specific major of Computational Modeling and Data Analytics.
+    I was always interested in programming from a very young first playing around with the Scratch and some other simple 
+    block-based programming languages making very simple games was a lot of fun. I gained more interest in it and then learned about Unity, a 
+    free game-engine you can use to make very professional games and so I started playing around in that making some simple games using tutorials on Youtube. 
+    I also then learned some python while taking an AP Computer Programming course in highschool which helped me greatly in the college level 
+    python courses. I made a few simple programs in python while learnign and even made a Pygame which you can play once you scroll down to my projects.
+    
+  <br> <br>
+
+    Blah Blah  Blah Blah Blah  Blah  Blah Blah  Blah  Blah Blah  Blah  Blah Blah  Blah  Blah Blah  Blah  
+    Blah Blah  Blah  Blah Blah  Blah  Blah Blah  Blah Blah Blah  Blah   Blah Blah  Blah Blah Blah  Blah
+    Blah Blah  Blah Blah Blah  Blah  Blah Blah  Blah  Blah Blah  Blah  Blah Blah  Blah  Blah Blah  Blah  
+    Blah Blah  Blah  Blah Blah  Blah  Blah Blah  Blah Blah Blah  Blah   Blah Blah  Blah Blah Blah  Blah
+  </p>
+ 
+  <hr>
+  
+  <h2>Projects and What I have Learned</h2>
+  <br>
+  <h3>Python Turtle Game</h3>
+  <p>
+    First project is a python Game where I challenged yself to make it only with help from the Turtles module and not the 
+    usual Pygame module. I made this in 2019 in the summer between my junior and senior year of highschool. I spent the summer 
+    learning python and this was the culmination of my knowledge what I learned at that time which was mostly the bare basics of python
+    as well as how the Turtles library worked. Here is the 
+     <a href="https://github.com/alev49/PythonTurtleGame">Github Link</a> for the source code. 
+
+
+    <img src="Screenshot 2023-10-23 at 4.32.07 PM.png" alt="Python Turtle Game" style="height: 600px; width: 800px;" >
+  </p>
+  <p>
+    Basic rules are to use the W, A, S, and D keys as your Up, Right, Down and Left direction you want the white cube to move.
+    The goal of the game is to collect as many of the red circles as you can without the green turtles getting to you.
+    Watch out though because the more red circles you get the more turltes spawn. 
+    One trick to get a really high score is to stay near the edge of the screen so you can easily cross to the other side instantly.
+  </p>
+  <br>
+  <h3>Python Text File Reader</h3>
+  <p>
+    This is a small project that I did in one of my pthon classes in college where the task was to be given a txt file in 
+    english language and give the top 20 words in it as well as the Grade Level for and Reading Score. I learned about opening and sorting through 
+    text files via python as well as basic data manipulation through that data being human text. The source code for this project is 
+    <a href="https://github.com/alev49/PythonTextReading">here.</a> 
+    <img src="Screenshot 2023-10-23 at 4.54.48 PM.png" alt="Python Turtle Game" style="height: 600px; width: 800px;" >
+  </p>
+  
+  <p>
+    Just download the source code and input any text file with your desired text you want to analyze. As you can see with my example 
+    above it analyzed the Martin Luther King Jr "I Have a Dream" speech. 
+  </p>
+
+ 
+
+
 
 
 </body>
